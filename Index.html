@@ -377,7 +377,7 @@ A.sharestore=async()=>{if(!D.items.length)return toast('Pehle items add karo');
  if(!D.shop.phone){sheet(`<h3>Mobile number chahiye</h3><div class="mu">Customer ka order aapke WhatsApp number par aayega. Pehle Settings mein shop ka mobile number daalo.</div><button class="btn" data-a="nav" data-v="settings">Settings kholo</button>`);return}
  stLink=location.href.split('#')[0]+'#s='+await enc(storeData());
  sheet(`<h3>🛍️ Aapki Online Dukaan</h3><div class="mu">Ye link customers ko bhejo. Wo item chunenge aur order seedha aapke WhatsApp par aayega. <b>Price ya stock badle to link dobara bhejo.</b></div>${stLink.length>6000?'<div class="mu" style="color:var(--rd);margin-top:6px">Link bahut lamba hai ('+stLink.length+' characters). Kam items rakhoge to behtar chalega.</div>':''}<button class="btn g" data-a="walink">📲 WhatsApp par link bhejo</button><button class="btn o" data-a="cplink">🔗 Link copy karo</button><button class="btn o" data-a="prevstore">👀 Dukaan dekho (preview)</button>`)};
-A.walink=()=>wa('',`🙏 Namaste! ${D.shop.name||'Hamari dukaan'} ab online hai.\nItem chuno aur order seedha WhatsApp par bhejo:\n${stLink}`);
+A.walink=()=>wa('',`🙏 hello! ${D.shop.name||'Hamari dukaan'} ab online hai.\nItem chuno aur order seedha WhatsApp par bhejo:\n${stLink}`);
 A.cplink=()=>navigator.clipboard?navigator.clipboard.writeText(stLink).then(()=>toast('Link copy ho gaya')).catch(()=>toast('Copy nahi hua')):toast('Copy support nahi hai');
 A.prevstore=()=>{closeSheet();S=storeData();sPv=1;C={};sQ='';sCat='All';openStore()};
 function closeSt(){$('#st').classList.add('hide');sPv=0;S=null;C={}}A.sclose=closeSt;
