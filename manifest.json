@@ -5,6 +5,10 @@
   "start_url": "/Dukan-sathi/",
   "scope": "/",
   "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
   "background_color": "#ffffff",
   "theme_color": "#7a1230",
   "orientation": "any",
@@ -51,5 +55,17 @@
   "categories": [
     "business",
     "utilities"
+  ],
+  "shortcuts": [
+    {
+      "name": "Dukan Sathi",
+      "url": "/Dukan-sathi/",
+      "icons": [
+        {
+          "src": "./windows11/Square44x44Logo.targetsize-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
   ]
 }
