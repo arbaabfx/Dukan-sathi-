@@ -9,4 +9,17 @@
   "short_name": "arbaabfx.github",
   "start_url": "/",
   "theme_color": "#7a1230"
+  "icons": [
+    {
+      "src": "/windows/LargeTile.scale-100.png",
+      "sizes": "310x310",
+      "type": "image/png"
+    },
+    {
+      "src": "/windows/SmallTile.scale-100.png",
+      "sizes": "71x71",
+      "type": "image/png"
+    }
+  ]
+  
 }
