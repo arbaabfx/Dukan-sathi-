@@ -1,0 +1,12 @@
+{
+  "background_color": "#ffffff",
+  "description": "Dukaan Saathi: shop billing and online dukaan",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "arbaabfx07",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "arbaabfx.github",
+  "start_url": "/",
+  "theme_color": "#7a1230"
+}
