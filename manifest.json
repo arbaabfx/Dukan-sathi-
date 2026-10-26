@@ -3,6 +3,10 @@
   "description": "Dukaan Saathi: shop billing and online dukaan",
   "dir": "ltr",
   "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
   "name": "Dukan Sathi",
   "orientation": "any",
   "scope": "/",
@@ -10,6 +14,7 @@
   "start_url": "/Dukan-sathi/",
   "theme_color": "#7a1230",
   "id": "/?id=dukan-sathi",
+  "lang": "en",
   "icons": [
     {
       "src": "windows11/Square44x44Logo.targetsize-16.png",
