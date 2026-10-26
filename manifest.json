@@ -1,62 +1,51 @@
 {
-  "background_color": "#ffffff",
-  "description": "Dukaan Saathi: shop billing and online dukaan",
-  "dir": "ltr",
-  "display": "standalone",
-  "display_override": [
-    "window-controls-overlay",
-    "standalone"
-  ],
   "name": "Dukan Sathi",
-  "orientation": "any",
-  "scope": "/",
   "short_name": "DukanSathi",
+  "description": "Dukaan Saathi: shop billing and online dukaan",
   "start_url": "/Dukan-sathi/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
   "theme_color": "#7a1230",
-  "id": "/?id=dukan-sathi",
+  "orientation": "any",
+  "dir": "ltr",
   "lang": "en",
+  "id": "/?id=dukan-sathi",
   "icons": [
     {
-      "src": "windows11/Square44x44Logo.targetsize-16.png",
+      "src": "./windows11/Square44x44Logo.targetsize-16.png",
       "sizes": "16x16",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     },
     {
-      "src": "windows11/Square44x44Logo.targetsize-32.png",
+      "src": "./windows11/Square44x44Logo.targetsize-32.png",
       "sizes": "32x32",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     },
     {
-      "src": "windows11/Square44x44Logo.targetsize-48.png",
+      "src": "./windows11/Square44x44Logo.targetsize-48.png",
       "sizes": "48x48",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     },
     {
-      "src": "windows11/Square44x44Logo.targetsize-256.png",
+      "src": "./windows11/Square44x44Logo.targetsize-256.png",
       "sizes": "256x256",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     },
     {
-      "src": "windows11/Square150x150Logo.scale-100.png",
+      "src": "./windows11/Square150x150Logo.scale-100.png",
       "sizes": "150x150",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     },
     {
-      "src": "windows11/Square150x150Logo.scale-200.png",
+      "src": "./windows11/Square150x150Logo.scale-200.png",
       "sizes": "300x300",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     },
     {
-      "src": "windows11/StoreLogo.scale-100.png",
+      "src": "./windows11/StoreLogo.scale-100.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     }
   ],
   "categories": [
